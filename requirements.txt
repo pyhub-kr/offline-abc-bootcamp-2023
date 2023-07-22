@@ -1,0 +1,17 @@
+jupyter
+
+requests
+beautifulsoup4
+pillow
+wordcloud
+openpyxl
+pandas
+matplotlib
+yt-dlp
+seaborn
+bokeh
+plotly
+folium
+statsmodels
+html5lib
+
