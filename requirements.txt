@@ -14,4 +14,4 @@ plotly
 folium
 statsmodels
 html5lib
-
+geopandas
