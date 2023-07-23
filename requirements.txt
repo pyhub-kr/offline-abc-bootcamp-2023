@@ -2,6 +2,7 @@ jupyter
 
 requests
 beautifulsoup4
+kiwipiepy
 pillow
 wordcloud
 openpyxl
