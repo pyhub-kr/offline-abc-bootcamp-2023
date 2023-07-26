@@ -4,7 +4,7 @@
 
 matplotlib/seaborn을 활용한 차트 그리기에서 마이너스 기호가 박스로 보여지는 상황이 있습니다. 이는 matplotlib에서 디폴트로 유니코드 마이너스 기호를 사용하기 때문이고, 폰트에 해당 기호가 없기 때문입니다.
 
-아래 `plt.rc('axes', unicode_minus=False)` 설정을 하여, 유니코드 마이너스 기호가 아닌, 폰트의 기본 마이너스 기호를 활용토록 하여 이를 해결할 수 있습니다.
+아래 `plt.rc('axes', unicode_minus=False)` 설정을 하여, 유니코드 마이너스 기호가 아닌, 폰트의 기본 마이너스 기호를 활용토록 하여 이를 해결할 수 있습니다. 아래 코드를 시각화를 하는 jupyter notebook 시작 부분에 꼭 넣어주세요.
 
 ```python
 import matplotlib.pyplot as plt
